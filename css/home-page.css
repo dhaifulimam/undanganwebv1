@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fefcf3;
+}
+.not_active {
+  display: none;
+  transition: all 3s;
+}
+.intro {
+  height: 100vh;
+}
+
+.intro img {
+  width: 100%;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.intro .word {
+  margin-top: -400px;
+  z-index: 99 !important;
+  position: relative;
+}
+
+.intro .word .to {
+  text-transform: capitalize;
+}
+
+.navbar {
+  text-decoration: none;
+  font-family: "viga";
+  width: 80%;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #f5ebe0;
+  border-style: solid;
+  border-color: #ce7777;
+  border-bottom: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-link img {
+  width: 40px;
+  display: block;
+}
+
+.nav-link {
+  color: black;
+}
+
+.img img {
+  width: 100%;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.word {
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+  margin-top: -200px;
+  font-family: "Courgette";
+  text-shadow: 1px 2px #f0dbdb;
+}
+
+.word h1 {
+  font-size: 3rem;
+}
+
+.word p {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.dotted {
+  border-top: 5px dotted rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.content-section {
+  text-align: center;
+}
+
+.content-section h1 {
+  font-family: "Merienda One";
+  font-size: 2rem;
+}
+
+.content-section h3 {
+  font-family: "Courgette";
+  margin-top: 20px;
+}
+
+.content-section p {
+  font-family: "Roboto Slab";
+  font-size: 1.2rem;
+}
+
+.bride img {
+  width: 80%;
+}
+
+.schedule {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-size: 1.2rem;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.card {
+  margin-top: 30px;
+  background-color: #f5ebe0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.schedule h1 {
+  font-family: "Merienda One";
+  margin-bottom: 30px;
+}
+
+.schedule h3 {
+  font-family: "Merienda One";
+  margin-bottom: 30px;
+}
+
+.schedule p {
+  line-height: 1.5;
+}
+
+.card-body p {
+  line-height: 1;
+}
+
+.card-body a {
+  border-radius: 20px;
+  width: 200px;
+  background-color: #dba39a;
+  color: #fefcf3;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-body a:hover {
+  background-color: #ce7777;
+}
+
+.maps {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.maps iframe {
+  border-radius: 10px;
+}
+
+.box {
+  background-color: #f5ebe0;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.box h4 {
+  font-size: 2rem;
+  text-shadow: 2px 2px #f0dbdb;
+}
+
+.gallery-content h1 {
+  text-align: center;
+  font-family: "Merienda One";
+  margin-bottom: 30px;
+}
+
+.gallery {
+  background-color: #f5ebe0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.prevBtn img {
+  width: 50px;
+  margin-right: 30px;
+}
+
+.nextBtn img {
+  width: 50px;
+  margin-left: 30px;
+}
+
+.health-protocol {
+  text-align: center;
+}
+
+.health-protocol h1 {
+  font-family: "Merienda One";
+}
+
+.health-protocol p {
+  font-family: "Roboto Slab";
+}
+
+.icons img {
+  width: 100px;
+  margin-top: 50px;
+}
+.icons p {
+  margin-top: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h1 {
+  font-family: "Merienda One";
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-family: "Roboto Slab";
+  line-height: 1.5;
+}
+
+.info .arab {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.chat {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.chat h1 {
+  font-family: "Merienda One";
+  margin-bottom: 20px;
+}
+
+.chit-chat {
+  background-color: #f5ebe0;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: start;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ucapanBtn {
+  border-radius: 20px;
+  background-color: #dba39a;
+  color: #fefcf3;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.ucapanBtn:hover {
+  background-color: #ce7777;
+}
+
+.ucapan {
+  margin-top: 30px;
+  background-color: #f5ebe0;
+  height: 300px;
+  overflow: auto;
+  overflow-x: hidden;
+  border-radius: 20px;
+  padding: 20px;
+  line-height: 1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ucapan h3 {
+  font-family: "Roboto Slab";
+  text-transform: capitalize;
+  text-shadow: 1px 2px #f0dbdb;
+  font-size: 1.5rem;
+}
+
+.ucapan p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  background-color: #dba39a;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer img {
+  width: 50px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1199.98px) {
+  .img img {
+    height: 600px;
+  }
+  .word {
+    margin-top: -250px;
+  }
+  .bride h3 {
+    font-size: 1.6rem;
+  }
+  .bride p {
+    font-size: 1.1rem;
+  }
+  .footer img {
+    margin-bottom: 100px;
+  }
+  .nav-link:hover {
+    color: black;
+    background-color: #ce7777;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .img img {
+    height: 100%;
+  }
+  .word {
+    margin-top: -200px;
+    z-index: 2;
+    width: 100%;
+  }
+  .bride h3 {
+    margin-top: 0;
+  }
+  .schedule {
+    width: 100%;
+  }
+  .box h4 {
+    font-size: 1.5rem;
+  }
+  .prevBtn img {
+    width: 40px;
+  }
+  .nextBtn img {
+    width: 40px;
+  }
+  .footer img {
+    margin-bottom: 100px;
+  }
+  .intro img {
+    height: 80vh;
+  }
+  .intro .word {
+    margin-top: -250px;
+  }
+  .nav-link:hover {
+    color: black;
+    background-color: #ce7777;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .img img {
+    height: 100%;
+  }
+  .word {
+    margin-top: -100px;
+    z-index: 2;
+    width: 100%;
+  }
+  .maps iframe {
+    width: 100%;
+  }
+  .footer img {
+    margin-bottom: 100px;
+  }
+  .intro img {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .maps iframe {
+    height: 400px;
+  }
+  .prevBtn img {
+    width: 30px;
+  }
+  .bride h3 {
+    font-size: 1.3rem;
+  }
+  .bride p {
+    font-size: 1rem;
+  }
+  .nextBtn img {
+    width: 30px;
+  }
+  .word {
+    width: 100%;
+  }
+  .content-section p {
+    font-size: 1rem;
+  }
+  .schedule p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .health-protocol p {
+    font-size: 1rem;
+  }
+  .info p {
+    font-size: 1rem;
+  }
+  .footer {
+    padding-bottom: 20px;
+  }
+  .footer img {
+    margin-bottom: 100px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .nav-link img {
+    width: 20px;
+    margin-left: 5px;
+  }
+  .nav-link {
+    font-size: 12px;
+    padding: 0;
+  }
+  .nav-link:hover {
+    background-color: #f5ebe0;
+  }
+  .intro img {
+    height: 45vh;
+  }
+  .intro .word {
+    margin-top: -100px;
+  }
+}
